@@ -192,6 +192,7 @@ body{
 /* <note>
 소정님 혹시 과제 예시랑 노란색 컬러 같게 하시려면 #FBD403 코드 사용하시면 됩니다!
 yellow로 해도 상관없지만, 그냥 참고하시라고 주석 남겨요..ㅎㅎ*/
+/* 넵 감사합니다! 아무래도 과제 예시와 같게 수정하는 게 좋을 것 같아서 수정했습니다~^^*/
 
 
 .part4{
@@ -227,9 +228,10 @@ yellow로 해도 상관없지만, 그냥 참고하시라고 주석 남겨요..�
 }
 
 .font1{
-    font-size: 58px; 
-    margin: 35px 15px 0px; 
+    font-size: 55px; 
+    margin: 50px 15px 0px; 
     font-weight: bold;
+    font-family: 'Roboto Serif', sans-serif;
 }
 
 .font2{
@@ -294,11 +296,11 @@ yellow로 해도 상관없지만, 그냥 참고하시라고 주석 남겨요..�
 }
 
 input.box1:hover {
-    border-color:  yellow;
+    border-color: #FBD403;
     border-width: 3px;
 }
 textarea:hover {
-    border-color:  yellow;
+    border-color: #FBD403;
     border-width: 2px;
 }
 
@@ -325,7 +327,7 @@ textarea::placeholder{
 }
 
 .submit-button{
-    background-color: yellow;
+    background-color:#FBD403;
     float: right;
     width: 100px;
     height: 30px;
