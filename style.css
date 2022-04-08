@@ -1,3 +1,337 @@
-*{
+/*------------------part1---------------------*/
 
+
+
+
+/*------------------part2---------------------*/
+
+
+body{
+    margin: 0;
 }
+
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-image: url("이미지/main_pic.webp");
+    background-size: cover;
+    padding-top: 110px;
+    color: white;
+}
+
+.padding-size{
+    padding: 0 300px;
+}
+
+.sub{
+    width: 100%;
+    height: 350px;
+    background-color: #FBD403;
+}
+
+.plus{
+    color: #FBD403;
+    font-size: 84px;
+    font-weight: 900;
+    position: absolute;
+    top: 35px;
+    left: 260px;
+    z-index: 0;
+}
+
+.main__box__slogan{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+/*줄간격 맞추기*/
+.main__box__slogan > p{
+    line-height: 1em; 
+    margin: 2px 0;
+}
+
+.main__btn{
+    width: 160px;
+    height: 45px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin: 40px 0px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.main__btn:first-child{
+    margin-right: 20px;
+}
+.main__btn:last-child{
+    margin-left: 20px;
+}
+
+.main__btn:hover{
+    color: #FBD403;
+    border-color: #FBD403;
+}
+
+
+.sub__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.sub__box__charge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+    margin-bottom: 0;
+}
+
+.sub__box__charge__img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sub__box__charge__img img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.font--lg{
+    font-size: 60px;
+}
+.font--m{
+    font-size: 29px;
+}
+
+
+/*------------------part3---------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+
+
+
+.mainbox {
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.plus_part {
+    font-size: 55px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.plus_1 {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+.intro {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.person-wrapper{
+    display: flex;
+    justify-content : space-between;
+    flex-direction : center;
+}
+
+.person_1 {
+    width: 80%;
+    height: 80%;
+}
+.person_2 {
+    width: 80%;
+    height: 80%;
+}
+.person_3 {
+    width: 80%;
+    height: 80%;
+}
+.person_4 {
+    width: 80%;
+    height: 80%;
+}
+
+.info{
+    text-align: center;
+    font-size: 8px;
+    padding-right: 30px;
+}
+
+.text_1{
+    font-size: 5px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+.text_2{
+    font-size: 5px;
+    padding-top: 50px;
+}
+.text {
+    display: flex;
+    justify-content : space-between;
+}
+
+
+/*------------------part4---------------------*/
+/* <note>
+소정님 혹시 과제 예시랑 노란색 컬러 같게 하시려면 #FBD403 코드 사용하시면 됩니다!
+yellow로 해도 상관없지만, 그냥 참고하시라고 주석 남겨요..ㅎㅎ*/
+
+
+.part4{
+	width: 980px;
+	height: 850px;
+	float: left;
+	background-color: black;	
+	padding: 0px 300px;
+}
+
+
+.main-box{
+    color: white;
+}
+
+.first-block{
+    width: 5%; 
+    height: 100%; 
+    float: left; 
+    padding-top: 50px;
+}
+
+.second-block{
+    width: 95%; 
+    height: 830px; 
+    float: left; 
+}
+
+.title1{
+    width: 95%; 
+    height: 20%; 
+    float: left; 
+}
+
+.font1{
+    font-size: 58px; 
+    margin: 35px 15px 0px; 
+    font-weight: bold;
+}
+
+.font2{
+    font-size: 20px; 
+    margin: 10px 18px;
+}
+
+.section1{
+    width: 400px; 
+    float: left;
+}
+
+.info1{
+    width: 350px; 
+    margin: 35px 12px;
+}
+
+.iconblock{
+    width: 50px;;
+    float: left;
+    text-align: center;
+}
+
+.textblock{
+    width: 200px;
+    height: 77px;
+    padding-top: 5px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.info2{
+    width: 200px;
+    font-size: 12px;
+    margin: 50px 12px;
+}
+
+.section2{
+    width: 450px;
+     float: left;
+}
+
+.text1{
+    font-size: 30px;
+}
+
+.text2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.block1{
+    width: 225px; 
+    height: 120px; 
+    float: left; 
+}
+
+.box1{
+    width: 210px;
+    height: 25px;
+    margin-bottom: 7px;
+}
+
+input.box1:hover {
+    border-color:  yellow;
+    border-width: 3px;
+}
+textarea:hover {
+    border-color:  yellow;
+    border-width: 2px;
+}
+
+.submit-button:hover{
+	background-color: white;
+}
+
+input::placeholder{
+    color: dimgray;
+    font-size: 15 px;
+    text-indent: 10px;
+}
+textarea::placeholder{
+    color: dimgray;
+    font-size: 15px;
+    text-indent: 10px;
+	padding: 10px 10px;
+}
+
+.block2{
+    width: 225px; float: left;
+    height: 120px; 
+    margin-bottom: 40px;
+}
+
+.submit-button{
+    background-color: yellow;
+    float: right;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+
+
+/*------------------part5(footer)---------------------*/
+
