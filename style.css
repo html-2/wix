@@ -582,6 +582,9 @@ body{
 .font--m{
     font-size: 29px;
 }
+.sub__box__charge span{
+    font-size: 16px;
+}
 
 
 /*------------------part3---------------------*/
