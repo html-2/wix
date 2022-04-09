@@ -749,11 +749,13 @@ yellow로 해도 상관없지만, 그냥 참고하시라고 주석 남겨요..�
 
 .text1{
     font-size: 30px;
+    margin: 35px 0px;
 }
 
 .text2{
     font-size: 30px;
     margin-top: 50px;
+    margin-bottom: 35px;
 }
 
 .block1{
@@ -805,6 +807,7 @@ textarea::placeholder{
     width: 100px;
     height: 30px;
     border-style: none;
+    margin: 5px
 }
 
 
