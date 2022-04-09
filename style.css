@@ -193,6 +193,19 @@ svg:not(:root) {
     text-align: center;
 }
 
+#site-root{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    top: var(--wix-ads-top-height);
+    min-height: 100%;
+    margin: 0 auto;
+}
+
 #SITE_HEADER {
     left: 0;
     margin-left: 0;
