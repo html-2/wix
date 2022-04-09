@@ -806,12 +806,74 @@ textarea::placeholder{
 
 
 /*------------------part5(footer)---------------------*/
-footer{
-    width: 100%;
-    height: 121px;
-    position: absolute;
-    bottom: 0;   
+#SITE_FOOTER {
+    --bg: var(--color_11);
+    --shd: none;
+    --brwt: 0px;
+    --brd: var(--color_15);
+    --brwb: 0px;
+    --bgctr: var(--color_11);
+    --rd: 0px;
+    --alpha-bg: 0;
+    --alpha-bgctr: 1;
+    --alpha-brd: 1;
+    --boxShadowToggleOn-shd: none;
+    --shc-mutated-brightness: 128,128,128;
 }
+
+#SITE_FOOTER {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    --pinned-layer-in-container: 51;
+    --above-all-in-container: 49;
+}
+
+[data-mesh-id=SITE_FOOTERinlineContent] {
+    height: auto;
+    width: 100%;
+}
+
+[data-mesh-id=SITE_FOOTERinlineContent-gridContainer] {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 121px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+#WRchTxt0-16wb {
+    height: auto;
+    width: 477px;
+}
+
+[data-mesh-id=SITE_FOOTERinlineContent-gridContainer] > [id="WRchTxt0-16wb"] {
+    position: relative;
+    margin: 27px 0px 10px calc((100% - 980px) * 0.5);
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#WRchTxts-jbi {
+    height: auto;
+    width: 416px;
+}
+
+[data-mesh-id=SITE_FOOTERinlineContent-gridContainer] > [id="WRchTxts-jbi"] {
+    position: relative;
+    margin: 27px 0px 10px calc((100% - 980px) * 0.5);
+    left: 492px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+
 
 #LnkBr0-199w {
     --item-size: 18px;
@@ -836,16 +898,15 @@ footer{
     letter-spacing: normal;
 }
 
-#WRchTxts-jbi {
-    height: auto;
-    width: 416px;
+._2O-Ry .xb9fU ._3lu8e {
+    display: var(--item-display);
+    width: var(--item-size);
+    height: var(--item-size);
+    margin: var(--item-margin);
 }
 
-[data-mesh-id=SITE_FOOTERinlineContent-gridContainer] > [id="WRchTxts-jbi"] {
+#masterPage.mesh-layout #SITE_FOOTER_WRAPPER{
     position: relative;
-    margin: 27px 0px 10px calc((100% - 980px) * 0.5);
-    left: 492px;
-    grid-area: 1 / 1 / 2 / 2;
-    justify-self: start;
-    align-self: start;
+    grid-area: 4/1/5/2;
 }
+
