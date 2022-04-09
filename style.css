@@ -601,6 +601,7 @@ body{
 }
 
 .plus_part {
+    padding-top: 30px;
     font-size: 55px;
     font-family: 'Roboto Serif', sans-serif;
 }
@@ -656,6 +657,7 @@ body{
     padding-top: 50px;
 }
 .text {
+    padding-top: 30px;
     display: flex;
     justify-content : space-between;
 }
