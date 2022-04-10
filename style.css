@@ -693,7 +693,7 @@ body{
     font-weight: 700;
     position: absolute;
     top: 45px;
-    left: 270px;
+    left: 278px;
     z-index: 0;
 }
 
@@ -775,6 +775,10 @@ body{
 }
 .font--special{
     font-family: 'Roboto Serif', sans-serif;
+    font-size: 58px;
+}
+.font--kr{
+    letter-spacing: 3px;
 }
 .sub__box__charge span{
     font-size: 16px;
