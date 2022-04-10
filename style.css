@@ -802,8 +802,8 @@ body{
 
 .plus_1 {
     vertical-align: middle;
-    width: 30px;
-    height: 30px;
+    width: 42px;
+    height: 42px;
 }
 
 .intro {
@@ -852,6 +852,7 @@ body{
 }
 .text {
     padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content : space-between;
 }
